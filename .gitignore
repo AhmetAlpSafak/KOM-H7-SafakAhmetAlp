@@ -1,0 +1,47 @@
+# Unity'nin ürettiği klasörler (depoya girmez)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build/D_Birlesik yönerge gereği depoya girer; diğer buildler girmez
+/[Bb]uilds/
+/Build/*
+!/Build/D_Birlesik/
+/Build/D_Birlesik/*_BurstDebugInformation_DoNotShip/
+/Build/D_Birlesik/*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# IDE ve proje dosyaları
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Çökme raporları
+sysinfo.txt
+mono_crash.*
+
+# Claude Code yerel ayarları
+.claude/settings.local.json
