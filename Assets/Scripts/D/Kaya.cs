@@ -46,6 +46,7 @@ public class Kaya : MonoBehaviour
         govde = GetComponent<CircleCollider2D>();
     }
 
+    // Oyuncu ile kaya arasındaki fiziksel çarpışmayı kapatır.
     void Start()
     {
         // Oyuncu kayayı katı cisim olarak itemez; yalnızca omuz teması sonuç üretir.

@@ -12,3 +12,4 @@ Araç: Claude (Anthropic), Claude masaüstü uygulaması ve Claude Code.
 | 2026-11-10 | Bütün betiklere açıklama satırları eklendi (kod mantığı değişmedi); yorum kuralı CLAUDE.md'ye yazıldı | `Assets/Scripts/A, B, C, D, Editor`, `CLAUDE.md` |
 | 2026-11-10 | Tasarım belgesi taslağı (6 bölüm, ayar ve bağ tabloları, şema) üretildi; eşli test notu boş bırakıldı | `Belge/H7_TasarimBelgesi.pdf`, `Belge/kaynak/belge_uret.py` |
 | 2026-11-10 | Git deposu kuruldu, ilk commit atıldı; D_Birlesik için Windows build başlatıldı | `.git`, `Build/D_Birlesik` |
+| 2026-11-12 | Oynanış videosu mp4'e çevrildi (yeniden kodlamadan); iki eksik açıklama satırı eklendi | `Belge/oynanis_D.mp4`, `Kaya.cs`, `SisifosOyun.cs` |

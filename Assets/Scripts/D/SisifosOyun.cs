@@ -32,6 +32,7 @@ public class SisifosOyun : MonoBehaviour
     float vurusMesajKalan;    // vuruş yazısının ekranda kalma süresi
     float bitisAni;           // oyunun bittiği an (gerçek zamanla)
 
+    // Oyunu durmuş hâlde başlatır: Boşluk'a basılana kadar zaman akmaz.
     void Awake()
     {
         Time.timeScale = 0f; // oyuncu başlatana kadar her şey durur
